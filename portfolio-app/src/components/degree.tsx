@@ -52,7 +52,7 @@ export default function Degree() {
   );
 }
 
-function AwardIcon(props) {
+function AwardIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -72,7 +72,7 @@ function AwardIcon(props) {
   );
 }
 
-function GraduationCapIcon(props) {
+function GraduationCapIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
