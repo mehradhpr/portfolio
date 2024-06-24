@@ -15,19 +15,19 @@ export default function Contact() {
       <div className="flex items-center justify-center">
         <Image
           src="/about.png"
-          width={380}
-          height={380}
+          width={400}
+          height={400}
           alt="Profile"
           priority={true}
-          className="aspect-square object-cover rounded-xl"
+          className="aspect-square object-cover rounded-3xl overflow-hidden"
         />
       </div>
       <div className="space-y-4">
         <div className="space-y-2">
           <h2 className="text-3xl font-bold">Get in Touch</h2>
           <p className="text-muted-foreground">
-            Have a question or want to work together? Fill out the form below and we&apos;ll get
-            back to you as soon as possible.
+            Have a question or want to work together? Fill out the form below and I&apos;ll get back
+            to you as soon as possible.
           </p>
         </div>
         <form className="space-y-4">
@@ -37,9 +37,13 @@ export default function Contact() {
               <Input id="name" placeholder="Enter your name" />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="email">Email</Label>
-              <Input id="email" type="email" placeholder="Enter your email" />
+              <Label htmlFor="name">Company</Label>
+              <Input id="name" placeholder="Enter your company" />
             </div>
+          </div>
+          <div className="space-y-2">
+            <Label htmlFor="email">Email</Label>
+            <Input id="email" type="email" placeholder="Enter your email" />
           </div>
           <div className="space-y-2">
             <Label htmlFor="message">Message</Label>
