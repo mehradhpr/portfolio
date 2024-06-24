@@ -30,12 +30,12 @@ export default function Project() {
         <Card>
           <CardHeader>
             <CardTitle>Sask AI</CardTitle>
-            <CardDescription></CardDescription>
+            <CardDescription>Fine Tuned Web AI Chatbot for Usask</CardDescription>
           </CardHeader>
           <CardContent>
             <Carousel className="w-full">
               <CarouselContent>
-                <CarouselItem>...</CarouselItem>
+                <CarouselItem></CarouselItem>
                 <CarouselItem>...</CarouselItem>
                 <CarouselItem>...</CarouselItem>
               </CarouselContent>
@@ -48,33 +48,144 @@ export default function Project() {
         <Card>
           <CardHeader>
             <CardTitle>Gate Keeper</CardTitle>
-            <CardDescription></CardDescription>
+            <CardDescription>Web Authentication Solution</CardDescription>
           </CardHeader>
-          <CardContent></CardContent>
+          <CardContent>
+            <Carousel className="w-full">
+              <CarouselContent>
+                <CarouselItem>
+                  <Image
+                    src="/projects/gate-keeper/gk.gif"
+                    alt="University Campus"
+                    width={1000}
+                    height={1000}
+                    className="rounded-lg w-full h-[280px]"
+                  />
+                </CarouselItem>
+                <CarouselItem>...</CarouselItem>
+                <CarouselItem>...</CarouselItem>
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
+          </CardContent>
           <CardFooter></CardFooter>
         </Card>
         <Card>
           <CardHeader>
             <CardTitle>Menu Search Optimization</CardTitle>
-            <CardDescription></CardDescription>
+            <CardDescription>UX/UI Survey Research on Optimal Menu Depth</CardDescription>
           </CardHeader>
-          <CardContent></CardContent>
+          <CardContent>
+            <Carousel className="w-full">
+              <CarouselContent>
+                <CarouselItem>
+                  <Image
+                    src="/projects/menu-search/mso.gif"
+                    alt="University Campus"
+                    width={800}
+                    height={800}
+                    className="rounded-lg w-full h-[280px]"
+                  />
+                </CarouselItem>
+                <CarouselItem>
+                  <Image
+                    src="/projects/menu-search/mso1.png"
+                    alt="University Campus"
+                    width={800}
+                    height={800}
+                    className="rounded-lg w-full h-[280px]"
+                  />
+                </CarouselItem>
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
+          </CardContent>
           <CardFooter></CardFooter>
         </Card>
         <Card>
           <CardHeader>
             <CardTitle>Chat Cafe</CardTitle>
-            <CardDescription></CardDescription>
+            <CardDescription>Channel-based chat website</CardDescription>
           </CardHeader>
-          <CardContent></CardContent>
+          <CardContent>
+            <Carousel className="w-full">
+              <CarouselContent>
+                <CarouselItem>
+                  <Image
+                    src="/projects/chat-cafe/cc1.png"
+                    alt="University Campus"
+                    width={800}
+                    height={800}
+                    className="rounded-lg w-full h-[200px]"
+                  />
+                </CarouselItem>
+                <CarouselItem>
+                  <Image
+                    src="/projects/chat-cafe/cc2.png"
+                    alt="University Campus"
+                    width={800}
+                    height={800}
+                    className="rounded-lg w-full h-[150px]"
+                  />
+                </CarouselItem>
+                <CarouselItem>
+                  <Image
+                    src="/projects/chat-cafe/cc3.png"
+                    alt="University Campus"
+                    width={800}
+                    height={800}
+                    className="rounded-lg w-full h-[250px]"
+                  />
+                </CarouselItem>
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
+          </CardContent>
           <CardFooter></CardFooter>
         </Card>
         <Card>
           <CardHeader>
             <CardTitle>Morax Calendar</CardTitle>
-            <CardDescription></CardDescription>
+            <CardDescription>Planner and Productivity</CardDescription>
           </CardHeader>
-          <CardContent></CardContent>
+          <CardContent>
+            <Carousel className="w-full">
+              <CarouselContent>
+                <CarouselItem>
+                  <Image
+                    src="/projects/morax-calendar/mc1.png"
+                    alt="University Campus"
+                    width={800}
+                    height={800}
+                    className="rounded-lg w-full h-[250px]"
+                  />
+                </CarouselItem>
+                <CarouselItem>
+                  <Image
+                    src="/projects/morax-calendar/mc3.png"
+                    alt="University Campus"
+                    width={800}
+                    height={800}
+                    className="rounded-lg w-full h-[250px]"
+                  />
+                </CarouselItem>
+                <CarouselItem>
+                  <Image
+                    src="/projects/morax-calendar/mc4.png"
+                    alt="University Campus"
+                    width={800}
+                    height={800}
+                    className="rounded-lg w-full h-[250px]"
+                  />
+                </CarouselItem>
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
+          </CardContent>
           <CardFooter></CardFooter>
         </Card>
       </div>
