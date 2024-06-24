@@ -1,14 +1,9 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/zKNdQ55TjWC
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section className="w-full py-6 md:py-12 lg:py-16">
       <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
         <Image
           src="/hero.png"
@@ -28,13 +23,22 @@ export default function Hero() {
               in modern web technologies and AI-driven solutions.
             </p>
           </div>
-          <Link
-            href="/contact"
-            className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-            prefetch={false}
-          >
-            Get in Touch
-          </Link>
+          <div className="flex gap-5">
+            <Link
+              href="/contact"
+              className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+              prefetch={false}
+            >
+              Get in Touch
+            </Link>
+            <Link
+              href="/projects"
+              className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+              prefetch={false}
+            >
+              See Projects
+            </Link>
+          </div>
         </div>
       </div>
     </section>

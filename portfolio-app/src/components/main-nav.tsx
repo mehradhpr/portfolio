@@ -29,7 +29,7 @@ export default function MainNav() {
           Contact
         </Link>
         <Link
-          href="/contact"
+          href="/projects"
           className="text-muted-foreground hover:text-foreground transition-all duration-300"
           prefetch={false}
         >

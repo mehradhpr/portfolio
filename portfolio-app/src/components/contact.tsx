@@ -1,8 +1,3 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/B1KyCjRTdlA
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -11,12 +6,12 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div className="w-full py-12 md:py-24 lg:py-32 max-w-5xl mx-auto grid md:grid-cols-2 gap-8 p-4 md:p-8">
+    <div className="w-full py-16 md:py-24 lg:py-32 max-w-5xl mx-auto grid md:grid-cols-2 gap-8 p-4 md:p-8">
       <div className="flex items-center justify-center">
         <Image
           src="/about.png"
-          width={400}
-          height={400}
+          width="520"
+          height="100"
           alt="Profile"
           priority={true}
           className="aspect-square object-cover rounded-3xl overflow-hidden"
