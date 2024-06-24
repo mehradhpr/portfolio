@@ -90,7 +90,7 @@ export default function MainNav() {
   );
 }
 
-function MenuIcon(props) {
+function MenuIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -111,7 +111,7 @@ function MenuIcon(props) {
   );
 }
 
-function MountainIcon(props) {
+function MountainIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
