@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <div className="container mx-auto py-12 px-4 md:px-6">
+      <div className="container mx-auto py-12 px-2 md:px-6 bg-">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Degree />
           <TA />

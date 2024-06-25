@@ -24,10 +24,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn("min-h-screen bg-background font-sans antialiased", fontSans.variable)}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <MainNav />
-          {children}
-        </ThemeProvider>
+        <MainNav />
+        {children}
       </body>
     </html>
   );

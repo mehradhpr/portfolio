@@ -37,14 +37,27 @@ export default function MainNav() {
         </Link>
       </nav>
       <div className="flex items-center gap-4">
-        <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
+        <Link
+          href="https://www.linkedin.com/in/mehradhassanp/"
+          className="text-muted-foreground hover:text-foreground"
+          prefetch={false}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Github className="h-6 w-6" />
           <span className="sr-only">LinkedIn</span>
         </Link>
-        <Link href="#" className="text-muted-foreground hover:text-foreground" prefetch={false}>
+        <Link
+          href="https://github.com/mehradhpr"
+          className="text-muted-foreground hover:text-foreground"
+          prefetch={false}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Linkedin className="h-6 w-6" />
           <span className="sr-only">GitHub</span>
         </Link>
+
         <Sheet>
           <SheetTrigger asChild>
             <Button variant="outline" size="icon" className="lg:hidden">
@@ -55,32 +68,25 @@ export default function MainNav() {
           <SheetContent side="left">
             <div className="grid gap-4 p-4">
               <Link
-                href="#"
-                className="text-muted-foreground hover:text-foreground"
-                prefetch={false}
-              >
-                Home
-              </Link>
-              <Link
-                href="#"
+                href="/"
                 className="text-muted-foreground hover:text-foreground"
                 prefetch={false}
               >
                 About
               </Link>
               <Link
-                href="#"
-                className="text-muted-foreground hover:text-foreground"
-                prefetch={false}
-              >
-                Services
-              </Link>
-              <Link
-                href="#"
+                href="/contact"
                 className="text-muted-foreground hover:text-foreground"
                 prefetch={false}
               >
                 Contact
+              </Link>
+              <Link
+                href="./projects"
+                className="text-muted-foreground hover:text-foreground"
+                prefetch={false}
+              >
+                Projects
               </Link>
             </div>
           </SheetContent>

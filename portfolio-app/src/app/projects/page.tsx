@@ -19,7 +19,7 @@ import Link from "next/link";
 
 export default function Project() {
   return (
-    <div className="container mx-auto px-4 py-20 md:px-6 lg:py-32">
+    <div className="container mx-auto px-2 py-20 md:px-6 lg:py-32">
       <div className="mb-8 text-center">
         <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">Featured Projects</h1>
         <p className="mt-4 text-muted-foreground md:text-xl">
@@ -39,9 +39,9 @@ export default function Project() {
                   <Image
                     src="/projects/saskai/saskai.png"
                     alt="University Campus"
-                    width={1000}
-                    height={1000}
-                    className="rounded-lg w-full h-[280px]"
+                    width={600}
+                    height={600}
+                    className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
                   />
                 </CarouselItem>
               </CarouselContent>
@@ -70,9 +70,9 @@ export default function Project() {
                   <Image
                     src="/projects/gate-keeper/gk.gif"
                     alt="University Campus"
-                    width={1000}
-                    height={1000}
-                    className="rounded-lg w-full h-[280px]"
+                    width={600}
+                    height={600}
+                    className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
                   />
                 </CarouselItem>
               </CarouselContent>
@@ -101,18 +101,18 @@ export default function Project() {
                   <Image
                     src="/projects/menu-search/mso.gif"
                     alt="University Campus"
-                    width={800}
-                    height={800}
-                    className="rounded-lg w-full h-[280px]"
+                    width={600}
+                    height={600}
+                    className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     src="/projects/menu-search/mso1.png"
                     alt="University Campus"
-                    width={800}
-                    height={800}
-                    className="rounded-lg w-full h-[280px]"
+                    width={600}
+                    height={600}
+                    className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
                   />
                 </CarouselItem>
               </CarouselContent>
@@ -144,27 +144,27 @@ export default function Project() {
                   <Image
                     src="/projects/chat-cafe/cc1.png"
                     alt="University Campus"
-                    width={800}
-                    height={800}
-                    className="rounded-lg w-full h-[200px]"
+                    width={600}
+                    height={600}
+                    className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     src="/projects/chat-cafe/cc2.png"
                     alt="University Campus"
-                    width={800}
-                    height={800}
-                    className="rounded-lg w-full h-[150px]"
+                    width={600}
+                    height={600}
+                    className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     src="/projects/chat-cafe/cc3.png"
                     alt="University Campus"
-                    width={800}
-                    height={800}
-                    className="rounded-lg w-full h-[250px]"
+                    width={600}
+                    height={600}
+                    className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
                   />
                 </CarouselItem>
               </CarouselContent>
@@ -195,27 +195,27 @@ export default function Project() {
                   <Image
                     src="/projects/morax-calendar/mc1.png"
                     alt="University Campus"
-                    width={800}
-                    height={800}
-                    className="rounded-lg w-full h-[250px]"
+                    width={600}
+                    height={600}
+                    className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     src="/projects/morax-calendar/mc3.png"
                     alt="University Campus"
-                    width={800}
-                    height={800}
-                    className="rounded-lg w-full h-[250px]"
+                    width={600}
+                    height={600}
+                    className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     src="/projects/morax-calendar/mc4.png"
                     alt="University Campus"
-                    width={800}
-                    height={800}
-                    className="rounded-lg w-full h-[250px]"
+                    width={600}
+                    height={600}
+                    className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
                   />
                 </CarouselItem>
               </CarouselContent>
