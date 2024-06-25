@@ -35,13 +35,26 @@ export default function Project() {
           <CardContent>
             <Carousel className="w-full">
               <CarouselContent>
-                <CarouselItem></CarouselItem>
-                <CarouselItem>...</CarouselItem>
-                <CarouselItem>...</CarouselItem>
+                <CarouselItem>
+                  <Image
+                    src="/projects/saskai/saskai.png"
+                    alt="University Campus"
+                    width={1000}
+                    height={1000}
+                    className="rounded-lg w-full h-[280px]"
+                  />
+                </CarouselItem>
               </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
             </Carousel>
+            <p>
+              A full-stack web-based AI chatbot to assist students with their academic inquiries
+              from the University of Saskatchewan.
+            </p>
+            <ul className="space-y-1 list-disc pl-5">
+              <li>React, Tailwind, Typescript</li>
+              <li>Framework: Next.js</li>
+              <li>Open AI GPT-3 API</li>
+            </ul>
           </CardContent>
           <CardFooter></CardFooter>
         </Card>
@@ -62,12 +75,17 @@ export default function Project() {
                     className="rounded-lg w-full h-[280px]"
                   />
                 </CarouselItem>
-                <CarouselItem>...</CarouselItem>
-                <CarouselItem>...</CarouselItem>
               </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
             </Carousel>
+            <p>
+              A full-stack Dynamic Role-based Access Control (RBAC) system for web applications.
+            </p>
+            <ul className="space-y-1 list-disc pl-5">
+              <li>React, Tailwind, Typescript, Prisma, PostgreSQL, Neon.tech</li>
+              <li>Framework: Next.js</li>
+              <li>JSON Web Tokens (JWT) as HTTP-only Cookies</li>
+              <li>Password Hashing with bcrypt</li>
+            </ul>
           </CardContent>
           <CardFooter></CardFooter>
         </Card>
@@ -101,6 +119,16 @@ export default function Project() {
               <CarouselPrevious />
               <CarouselNext />
             </Carousel>
+            <p>
+              Research project to find the optimal depth of menu systems to reduce visual search
+              time.
+            </p>
+            <ul className="space-y-1 list-disc pl-5">
+              <li>Conducted a survey with a few participants</li>
+              <li>Implemented with Processing</li>
+              <li>Five different menu depths and configurations</li>
+              <li>Data analysis via Python and matplotlib</li>
+            </ul>
           </CardContent>
           <CardFooter></CardFooter>
         </Card>
@@ -143,6 +171,15 @@ export default function Project() {
               <CarouselPrevious />
               <CarouselNext />
             </Carousel>
+            <p>
+              A full-stack web-based platform for creating channels and engaging in real-time
+              discussions featuring likes, dislikes, replies and search functionalites.
+            </p>
+            <ul className="space-y-1 list-disc pl-5">
+              <li>Node.js, React, MySQL</li>
+              <li>RESTful principles</li>
+              <li>Responsive and dynamic</li>
+            </ul>
           </CardContent>
           <CardFooter></CardFooter>
         </Card>
@@ -185,6 +222,15 @@ export default function Project() {
               <CarouselPrevious />
               <CarouselNext />
             </Carousel>
+            <p>
+              A Desktop application for scheduling, setting up meetings and tracking productivity.
+            </p>
+            <ul className="space-y-1 list-disc pl-5">
+              <li>Java, JavaFX, MySQL</li>
+              <li>Model-View-Controller Architecture</li>
+              <li>Teamwork and Agile Methodologies</li>
+              <li>Object Oriented Design</li>
+            </ul>
           </CardContent>
           <CardFooter></CardFooter>
         </Card>
