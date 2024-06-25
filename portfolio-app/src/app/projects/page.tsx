@@ -42,6 +42,7 @@ export default function Project() {
                     width={600}
                     height={600}
                     className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
+                    priority
                   />
                 </CarouselItem>
               </CarouselContent>
@@ -73,6 +74,7 @@ export default function Project() {
                     width={600}
                     height={600}
                     className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
+                    priority
                   />
                 </CarouselItem>
               </CarouselContent>
@@ -104,6 +106,7 @@ export default function Project() {
                     width={600}
                     height={600}
                     className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
+                    priority
                   />
                 </CarouselItem>
                 <CarouselItem>
@@ -113,6 +116,7 @@ export default function Project() {
                     width={600}
                     height={600}
                     className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
+                    priority
                   />
                 </CarouselItem>
               </CarouselContent>
@@ -147,6 +151,7 @@ export default function Project() {
                     width={600}
                     height={600}
                     className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
+                    priority
                   />
                 </CarouselItem>
                 <CarouselItem>
@@ -156,6 +161,7 @@ export default function Project() {
                     width={600}
                     height={600}
                     className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
+                    priority
                   />
                 </CarouselItem>
                 <CarouselItem>
@@ -165,6 +171,7 @@ export default function Project() {
                     width={600}
                     height={600}
                     className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
+                    priority
                   />
                 </CarouselItem>
               </CarouselContent>
@@ -173,7 +180,7 @@ export default function Project() {
             </Carousel>
             <p>
               A full-stack web-based platform for creating channels and engaging in real-time
-              discussions featuring likes, dislikes, replies and search functionalites.
+              discussions featuring likes, dislikes, replies and search functionalities.
             </p>
             <ul className="space-y-1 list-disc pl-5">
               <li>Node.js, React, MySQL</li>
@@ -198,15 +205,7 @@ export default function Project() {
                     width={600}
                     height={600}
                     className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
-                  />
-                </CarouselItem>
-                <CarouselItem>
-                  <Image
-                    src="/projects/morax-calendar/mc3.png"
-                    alt="University Campus"
-                    width={600}
-                    height={600}
-                    className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
+                    priority
                   />
                 </CarouselItem>
                 <CarouselItem>
@@ -216,6 +215,7 @@ export default function Project() {
                     width={600}
                     height={600}
                     className="mx-auto overflow-hidden rounded-lg object-cover sm:w-full"
+                    priority
                   />
                 </CarouselItem>
               </CarouselContent>
