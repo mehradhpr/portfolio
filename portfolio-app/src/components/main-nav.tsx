@@ -1,14 +1,17 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/TunUo0SrF3q
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
+"use client";
+import { useState } from "react";
 import Link from "next/link";
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin } from "lucide-react";
 
 export default function MainNav() {
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setIsSheetOpen(false);
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 flex h-16 w-full items-center justify-between bg-background/60 backdrop-blur-md px-4 md:px-6">
       <nav className="hidden gap-6 items-center md:flex">
@@ -58,7 +61,7 @@ export default function MainNav() {
           <span className="sr-only">GitHub</span>
         </Link>
 
-        <Sheet>
+        <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
           <SheetTrigger asChild>
             <Button variant="outline" size="icon" className="lg:hidden">
               <MenuIcon className="h-6 w-6" />
@@ -71,6 +74,7 @@ export default function MainNav() {
                 href="/"
                 className="text-muted-foreground hover:text-foreground"
                 prefetch={false}
+                onClick={handleLinkClick}
               >
                 About
               </Link>
@@ -78,6 +82,7 @@ export default function MainNav() {
                 href="/contact"
                 className="text-muted-foreground hover:text-foreground"
                 prefetch={false}
+                onClick={handleLinkClick}
               >
                 Contact
               </Link>
@@ -85,6 +90,7 @@ export default function MainNav() {
                 href="./projects"
                 className="text-muted-foreground hover:text-foreground"
                 prefetch={false}
+                onClick={handleLinkClick}
               >
                 Projects
               </Link>
