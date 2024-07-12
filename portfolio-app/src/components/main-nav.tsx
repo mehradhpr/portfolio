@@ -41,7 +41,7 @@ export default function MainNav() {
       </nav>
       <div className="flex items-center gap-4">
         <Link
-          href="https://www.linkedin.com/in/mehradhassanp/"
+          href="https://github.com/mehradhpr"
           className="text-muted-foreground hover:text-foreground"
           prefetch={false}
           target="_blank"
@@ -51,7 +51,7 @@ export default function MainNav() {
           <span className="sr-only">LinkedIn</span>
         </Link>
         <Link
-          href="https://github.com/mehradhpr"
+          href="https://www.linkedin.com/in/mehradhassanp/"
           className="text-muted-foreground hover:text-foreground"
           prefetch={false}
           target="_blank"
