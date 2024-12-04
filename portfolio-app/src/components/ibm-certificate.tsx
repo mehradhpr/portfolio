@@ -13,7 +13,7 @@ export default function SQL() {
       />
       <CardHeader className="px-6 pt-6">
         <CardTitle>IBM SQL Certificate</CardTitle>
-        <CardDescription>www.edx.org, 2022</CardDescription>
+        <CardDescription>2022 | www.edx.org</CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <p>
