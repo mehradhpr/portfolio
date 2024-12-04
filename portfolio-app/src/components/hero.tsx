@@ -19,8 +19,8 @@ export default function Hero() {
               Mehrad Hassanpour
             </h1>
             <p className="max-w-[600px] text-muted-foreground md:text-xl">
-              Accomplished developer with a Bachelor&apos;s degree in Computer Science, specializing
-              in modern web technologies and AI-driven solutions.
+              Full-stack developer with a bachelor&apos;s degree in computer science, building
+              software solutions for individuals and businesses.
             </p>
           </div>
           <div className="flex gap-5">
