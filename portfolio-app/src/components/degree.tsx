@@ -13,7 +13,7 @@ export default function Degree() {
       />
       <CardHeader className="px-6 pt-6">
         <CardTitle>Bachelor of Computer Science</CardTitle>
-        <CardDescription>Graduated in 2024</CardDescription>
+        <CardDescription>2020 to 2024 | A Member of U15</CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
@@ -21,30 +21,30 @@ export default function Degree() {
           <ul className="space-y-1 text-sm">
             <li className="flex items-center gap-2">
               <AwardIcon className="w-5 h-5 text-primary" />
-              <span>With Great Distinction</span>
+              <span>With Distinction | Cumulative Average of 85%</span>
             </li>
             <li className="flex items-center gap-2">
               <GraduationCapIcon className="w-5 h-5 text-primary" />
-              <span>Cumulative Average of 85%</span>
+              <span>Four-year Degree</span>
             </li>
           </ul>
         </div>
         <div className="space-y-2">
           <li className="flex items-center gap-2">
-            <span className="text-sm text-muted-foreground">CMPT332</span>
-            <span className="text-foreground">Operating Systems Concepts</span>
-          </li>
-          <li className="flex items-center gap-2">
-            <span className="text-sm text-muted-foreground">CMPT489</span>
-            <span className="text-foreground">Deep Learning and Applications</span>
+            <span className=" text-sm text-muted-foreground">CMPT370</span>
+            <span className="text-foreground">Intermediate Software Engineering</span>
           </li>
           <li className="flex items-center gap-2">
             <span className="text-sm text-muted-foreground">CMPT353</span>
             <span className="text-foreground">Full Stack Web Programming</span>
           </li>
           <li className="flex items-center gap-2">
-            <span className=" text-sm text-muted-foreground">CMPT370</span>
-            <span className="text-foreground">Intermediate Software Engineering</span>
+            <span className="text-sm text-muted-foreground">CMPT360</span>
+            <span className="text-foreground">Algorithm Design and Analysis</span>
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="text-sm text-muted-foreground">CMPT332</span>
+            <span className="text-foreground">Operating Systems Concepts</span>
           </li>
         </div>
       </CardContent>
