@@ -2,7 +2,7 @@ import Degree from "@/components/degree";
 import Hero from "@/components/hero";
 import SQL from "@/components/ibm-certificate";
 import LinkedInCertificate from "@/components/linkedin-certificate";
-import TA from "@/components/ta-experience";
+import TA from "@/components/ta-214";
 import Image from "next/image";
 
 export default function Home() {

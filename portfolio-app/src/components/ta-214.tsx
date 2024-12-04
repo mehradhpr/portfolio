@@ -12,12 +12,12 @@ export default function TA() {
         className="rounded-t-lg object-cover w-full aspect-[2/1]"
       />
       <CardHeader className="px-6 pt-6">
-        <CardTitle>Teaching Assistant Leader</CardTitle>
-        <CardDescription>CMPT 214, University of Saskatchewan, 2023</CardDescription>
+        <CardTitle>Teaching Assistant | CMPT 214</CardTitle>
+        <CardDescription>University of Saskatchewan, 2023 Summer</CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
-          <h3 className="text-lg font-semibold">CMPT 214: Programming Principles and Practice</h3>
+          <h3 className="text-lg font-semibold">Programming Principles and Practice</h3>
           <ul className="space-y-1 list-disc pl-5">
             <li>C Language, memory management, pointers, makefiles</li>
             <li>Linux operating system</li>
