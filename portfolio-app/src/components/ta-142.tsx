@@ -13,7 +13,7 @@ export default function TA142() {
       />
       <CardHeader className="px-6 pt-6">
         <CardTitle>Teaching Assistant | CMPT 142</CardTitle>
-        <CardDescription>University of Saskatchewan, 2024 Fall</CardDescription>
+        <CardDescription>Fall 2024 | University of Saskatchewan</CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
@@ -27,8 +27,7 @@ export default function TA142() {
         <p>
           Assisted over <b>20 students</b> in achieving a 50% improvement in their grades.
           Facilitated learning for freshman engineers by teaching Python programming and data
-          visualization techniques. Conducted <b>weekly labs</b> and administered and evaluated{" "}
-          <b>quizzes</b> to support student development.
+          visualization techniques.
         </p>
       </CardContent>
     </Card>

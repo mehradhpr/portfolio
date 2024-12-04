@@ -13,7 +13,7 @@ export default function TA214() {
       />
       <CardHeader className="px-6 pt-6">
         <CardTitle>Teaching Assistant | CMPT 214</CardTitle>
-        <CardDescription>University of Saskatchewan, 2023 Summer</CardDescription>
+        <CardDescription>Summer 2023 | University of Saskatchewan</CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
@@ -25,8 +25,7 @@ export default function TA214() {
           </ul>
         </div>
         <p>
-          Served as a teaching assistant leader, responsible for supporting undergraduate
-          students&apos; success in the course. I led weekly discussion sections, addressed student
+          Served as a teaching assistant leader, led weekly discussion sections, addressed student
           inquiries, and provided one-on-one tutoring.
         </p>
       </CardContent>
