@@ -1,7 +1,7 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 
-export default function TA() {
+export default function TA214() {
   return (
     <Card className="max-w-md mx-2 h-fit">
       <Image
