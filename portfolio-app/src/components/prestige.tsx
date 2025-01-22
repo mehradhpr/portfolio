@@ -1,7 +1,6 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Link } from "lucide-react";
 import Image from "next/image";
-import { ExternalLink } from "lucide-react";
-import Link from "next/link";
 
 export default function Prestige() {
   return (
@@ -17,25 +16,23 @@ export default function Prestige() {
         <CardTitle className="flex flex-row justify-between">
           <p>Full-Stack Developer</p>
           <a target="_blank" href={"https://www.prestigelock.ca"}>
-            <ExternalLink />
+            <Link />
           </a>
         </CardTitle>
-        <CardDescription>Sep 2024 to Present | Saskatoon, SK</CardDescription>
+        <CardDescription>Fall 2024 | Saskatoon, SK | Four Months Internship</CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
           <h3 className="text-lg font-semibold">Prestige Lock and Door | Startup</h3>
           <ul className="space-y-1 list-disc pl-5">
             <li>
-              Worked in a small team to develop reusable software for inventory and employee
-              management.
+              Developed a job proposals module in a startup environment using Agile methodologies to improve operational efficiency by 30%.
             </li>
             <li>
-              Developed a job proposals module to increase efficiency and reduce redundancies of
-              reoccurring details as much as possible.
+              Collaborated with cross-functional teams to integrate backend services via Next.js API calls and Airtable, ensuring seamless data retrieval.
             </li>
             <li>Built dynamically updated field components for certain database tables.</li>
-            <li>TypeScript, React.js, Airtable, Next.js, ShadCN, Express.js</li>
+            <li>Stack: Typescript, React.js, Next.js, ShadCN, Express.js, Airtable, Softr</li>
           </ul>
         </div>
       </CardContent>
