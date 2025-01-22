@@ -1,3 +1,4 @@
+import { Github, Linkedin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -38,6 +39,14 @@ export default function Hero() {
             >
               See Projects
             </Link>
+          </div>
+          <div className="flex flex-row sm:gap-10 sm:pt-10 pt-2 justify-start gap-4">
+            <a target="_blank" href="https://github.com/mehradhpr">
+              <Github className="text-primary lg:size-24 size-10" />
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/mehradhpr/">
+              <Linkedin className="text-primary lg:size-24 size-10" />
+            </a>
           </div>
         </div>
       </div>
