@@ -12,7 +12,7 @@ export default function Home() {
     <main>
       <Hero />
       <div className="container mx-auto py-12 px-2 md:px-6 bg-">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="sm:grid flex flex-col items-center md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Degree />
           <Prestige />
           <TA142 />
