@@ -21,7 +21,7 @@ export default function Degree() {
           <ul className="space-y-1 text-sm">
             <li className="flex items-center gap-2">
               <AwardIcon className="w-5 h-5 text-primary" />
-              <span>With Distinction | Cumulative Average of 85%</span>
+              <span>Graduated with Great Distinction</span>
             </li>
             <li className="flex items-center gap-2">
               <GraduationCapIcon className="w-5 h-5 text-primary" />

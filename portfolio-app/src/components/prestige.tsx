@@ -19,7 +19,7 @@ export default function Prestige() {
             <Link />
           </a>
         </CardTitle>
-        <CardDescription>Fall 2024 | Saskatoon, SK | Four Months Internship</CardDescription>
+        <CardDescription>Fall 2024 | Saskatoon, SK | 4 Months Internship</CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
