@@ -17,7 +17,7 @@ export default function Degree() {
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
-          <h4 className="text-lg font-semibold">B.Sc. from University of Saskatchewan</h4>
+          <h4 className="text-lg font-semibold">University of Saskatchewan B.Sc.</h4>
           <ul className="space-y-1 text-sm">
             <li className="flex items-center gap-2">
               <AwardIcon className="w-5 h-5 text-primary" />

@@ -13,7 +13,7 @@ export default function Prestige() {
         className="rounded-t-lg object-cover w-full aspect-[5/1]"
       />
       <CardHeader className="px-6 pt-6">
-        <CardTitle className="flex flex-row justify-between">
+        <CardTitle className="flex flex-row justify-between items-center">
           <p>Full-Stack Developer</p>
           <a target="_blank" href={"https://www.prestigelock.ca"}>
             <Link />

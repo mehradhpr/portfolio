@@ -13,7 +13,7 @@ export default function TA142() {
         className="rounded-t-lg object-cover w-full aspect-[2/1]"
       />
       <CardHeader className="px-6 pt-6">
-        <div className="flex justify-between space-x-2">
+        <div className="flex justify-between space-x-2 items-center">
         <CardTitle>Teaching Assistant | CMPT 142</CardTitle>
         <a href="https://catalogue.usask.ca/CMPT-142" className="text-sm hover:underline">
           <Link size="24" />
