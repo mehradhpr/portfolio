@@ -1,4 +1,5 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Link } from "lucide-react";
 import Image from "next/image";
 
 export default function TA214() {
@@ -12,7 +13,9 @@ export default function TA214() {
         className="rounded-t-lg object-cover w-full aspect-[2/1]"
       />
       <CardHeader className="px-6 pt-6">
-        <CardTitle>Teaching Assistant | CMPT 214</CardTitle>
+        <CardTitle className="flex justify-between items-center">Teaching Assistant | CMPT 214
+          <a target="_blank"><Link size={24}></Link></a>
+        </CardTitle>
         <CardDescription>Summer 2023 | University of Saskatchewan</CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
@@ -25,7 +28,7 @@ export default function TA214() {
           </ul>
         </div>
         <p>
-          Served as a teaching assistant leader, led weekly discussion sections, addressed student
+          Served as a teaching assistant leader, introduced students to Linux-based development workflows and debugging techniques. Led weekly discussion sections, addressed student
           inquiries, and provided one-on-one tutoring.
         </p>
       </CardContent>

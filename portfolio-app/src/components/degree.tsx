@@ -1,4 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "lucide-react";
 import Image from "next/image";
 
 export default function Degree() {
@@ -12,12 +13,18 @@ export default function Degree() {
         className="rounded-t-lg object-cover w-full h-48"
       />
       <CardHeader className="px-6 pt-6">
-        <CardTitle>Bachelor of Computer Science</CardTitle>
+        <CardTitle className="flex justify-between items-center">Bachelor of Computer Science
+          <a target="_blank" href="https://programs.usask.ca/arts-and-science/computer-science/bsc-4-computer-science.php#top" className="text-sm hover:underline">
+            <Link size="24" />
+          </a>
+        </CardTitle>
         <CardDescription>2020 to 2024 | A Member of U15</CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
+          <div>
           <h4 className="text-lg font-semibold">University of Saskatchewan B.Sc.</h4>
+          </div>
           <ul className="space-y-1 text-sm">
             <li className="flex items-center gap-2">
               <AwardIcon className="w-5 h-5 text-primary" />

@@ -23,7 +23,7 @@ export default function Prestige() {
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
-          <h3 className="text-lg font-semibold">Prestige Lock and Door | Startup</h3>
+          <h3 className="text-lg font-semibold">Prestige | Startup</h3>
           <ul className="space-y-1 list-disc pl-5">
             <li>
               Developed a job proposals module in a startup environment using Agile methodologies to improve operational efficiency by 30%.
