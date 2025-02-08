@@ -13,14 +13,17 @@ export default function TA214() {
         className="rounded-t-lg object-cover w-full aspect-[2/1]"
       />
       <CardHeader className="px-6 pt-6">
-        <CardTitle className="flex justify-between items-center">Teaching Assistant | CMPT 214
+        <CardTitle className="flex justify-between items-center">Programming TA Leader
           <a target="_blank"><Link size={24}></Link></a>
         </CardTitle>
-        <CardDescription>Summer 2023 | University of Saskatchewan</CardDescription>
+        <CardDescription className="flex flex-row justify-between">
+        <span className="block">Summer 2023</span>
+        <span className="block">University of Saskatchewan, SK</span>
+        </CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
-          <h3 className="text-lg font-semibold">Programming Principles and Practice</h3>
+          <h3 className="text-lg font-semibold">Programming Principles</h3>
           <ul className="space-y-1 list-disc pl-5">
             <li>C Language, memory management, pointers, makefiles</li>
             <li>Linux operating system</li>
@@ -28,8 +31,8 @@ export default function TA214() {
           </ul>
         </div>
         <p>
-          Served as a teaching assistant leader, introduced students to Linux-based development workflows and debugging techniques. Led weekly discussion sections, addressed student
-          inquiries, and provided one-on-one tutoring.
+        Mentored 40+ students in a computer science course, teaching <strong>C programming</strong>, memory management, pointer
+        manipulation, and <strong>Linux-based development workflows</strong>.
         </p>
       </CardContent>
     </Card>

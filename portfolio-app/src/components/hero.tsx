@@ -20,8 +20,7 @@ export default function Hero() {
               Mehrad Hassanpour
             </h1>
             <p className="max-w-[600px] text-muted-foreground md:text-xl">
-              Full-stack developer with a bachelor&apos;s degree in computer science, building
-              software solutions for individuals and businesses.
+              Software Engineer with proven track record in full-stack development and collaborating in Agile teams. Passionate about impacting lives through tech.
             </p>
           </div>
           <div className="flex gap-5">

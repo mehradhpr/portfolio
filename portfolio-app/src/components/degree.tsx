@@ -18,7 +18,10 @@ export default function Degree() {
             <Link size="24" />
           </a>
         </CardTitle>
-        <CardDescription>2020 to 2024 | A Member of U15</CardDescription>
+        <CardDescription className="flex flex-row justify-between">
+        <span className="block">Graduated in 2024</span>
+        <span className="block">SK, Canada</span>
+        </CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
@@ -34,12 +37,16 @@ export default function Degree() {
               <GraduationCapIcon className="w-5 h-5 text-primary" />
               <span>Four-year Degree</span>
             </li>
+            <li className="flex items-center gap-2">
+              <AwardIcon className="w-5 h-5 text-primary" />
+              <span>Golden Key International Honours Society</span>
+            </li>
           </ul>
         </div>
         <div className="space-y-2">
           <li className="flex items-center gap-2">
             <span className=" text-sm text-muted-foreground">CMPT370</span>
-            <span className="text-foreground">Intermediate Software Engineering</span>
+            <span className="text-foreground">Software Engineering</span>
           </li>
           <li className="flex items-center gap-2">
             <span className="text-sm text-muted-foreground">CMPT353</span>

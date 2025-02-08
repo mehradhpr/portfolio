@@ -6,21 +6,26 @@ import Prestige from "@/components/prestige";
 import TA142 from "@/components/ta-142";
 import TA214 from "@/components/ta-214";
 import Image from "next/image";
+import Project from "./projects/page";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <div className="container mx-auto py-12 px-2 md:px-6 bg-">
+      <div className="container mx-auto px-2 md:px-6 -mb-10">
+      <div className="mb-8 text-center">
+        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">Experience & Education</h1>
+        <p className="mt-4 text-muted-foreground md:text-xl">
+          Check out some of my latest projects.
+        </p>
+      </div>
         <div className="sm:grid flex flex-col items-center md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <Degree />
           <Prestige />
+          <Degree />
           <TA142 />
-          <LinkedInCertificate />
-          <TA214 />
-          <SQL />
         </div>
       </div>
+      <Project></Project>
     </main>
   );
 }

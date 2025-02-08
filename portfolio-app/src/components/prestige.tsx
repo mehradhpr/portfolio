@@ -14,25 +14,30 @@ export default function Prestige() {
       />
       <CardHeader className="px-6 pt-6">
         <CardTitle className="flex flex-row justify-between items-center">
-          <p>Full-Stack Developer</p>
+          <p>Full-Stack Software Engineer</p>
           <a target="_blank" href={"https://www.prestigelock.ca"}>
             <Link />
           </a>
         </CardTitle>
-        <CardDescription>Fall 2024 | Saskatoon, SK | 4 Months Internship</CardDescription>
+        <CardDescription className="flex flex-row justify-between">
+        <span className="block">Sep. 2024 - Jan. 2025</span>
+        <span className="block">Prestige, SK, Canada</span>
+        </CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
-          <h3 className="text-lg font-semibold">Prestige | Startup</h3>
           <ul className="space-y-1 list-disc pl-5">
             <li>
-              Developed a job proposals module in a startup environment using Agile methodologies to improve operational efficiency by 30%.
+            Designed and engineered a full-stack job proposals feature in a startup environment, utilizing <strong>React, TypeScript,
+            and the Next.js</strong> framework for the front end, and <strong>Express.js</strong> for the back end, which effectively reduced
+            proposal creation time by 30% and streamlined the process.
             </li>
             <li>
-              Collaborated with cross-functional teams to integrate backend services via Next.js API calls and Airtable, ensuring seamless data retrieval.
+            Built <strong>5+ reusable RESTful APIs using Express.js, JWT, and CORS</strong>, improving client-server response time
+            by 25%. Ensured robustness with thorough endpoint validation using <strong>Jest unit tests and Postman</strong>.
             </li>
-            <li>Built dynamically updated field components for certain database tables.</li>
-            <li>Stack: Typescript, React.js, Next.js, ShadCN, Express.js, Airtable, Softr</li>
+            <li>Revamped <strong>10+ React.js components with ShadCN</strong>, reducing UI-related user errors by 50%.</li>
+            <li>Integrated <strong>CI/CD pipelines</strong> by GitHub Actions, and collaborated in <strong>Agile workflows</strong>.</li>
           </ul>
         </div>
       </CardContent>

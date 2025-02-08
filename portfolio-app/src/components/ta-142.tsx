@@ -14,12 +14,15 @@ export default function TA142() {
       />
       <CardHeader className="px-6 pt-6">
         <div className="flex justify-between space-x-2 items-center">
-        <CardTitle>Teaching Assistant | CMPT 142</CardTitle>
+        <CardTitle>Python TA Leader</CardTitle>
         <a href="https://catalogue.usask.ca/CMPT-142" className="text-sm hover:underline">
           <Link size="24" />
         </a>
         </div>
-        <CardDescription>Fall 2024 | University of Saskatchewan</CardDescription>
+        <CardDescription className="flex flex-row justify-between">
+        <span className="block">Fall 2024</span>
+        <span className="block">University of Saskatchewan, SK</span>
+        </CardDescription>
       </CardHeader>
       <CardContent className="px-6 pb-6 space-y-4">
         <div className="space-y-2">
@@ -34,9 +37,8 @@ export default function TA142() {
           </ul>
         </div>
         <p>
-          Assisted over <b>20 students</b> in achieving a 50% improvement in their grades.
-          Facilitated learning for freshman engineers by teaching Python programming and data
-          visualization techniques.
+        Mentored 50+ engineering students in a computer engineering course, teaching core programming concepts such as
+        <strong> Python, data visualization with Matplotlib, and recursion</strong>.
         </p>
       </CardContent>
     </Card>
