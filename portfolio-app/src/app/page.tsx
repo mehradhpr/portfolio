@@ -26,7 +26,6 @@ export default function Home() {
           <SQL />
           <TA214 />
           <LinkedInCertificate />
-          <
         </div>
       </div>
       <Project></Project>
