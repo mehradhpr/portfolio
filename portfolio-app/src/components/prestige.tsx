@@ -29,14 +29,14 @@ export default function Prestige() {
           <ul className="space-y-1 list-disc pl-5">
             <li>
             Designed and engineered a full-stack job proposals feature in a startup environment, utilizing <strong>React, TypeScript,
-            and the Next.js</strong> framework for the front end, and <strong>Express.js</strong> for the back end, which effectively reduced
+            and Next.js</strong> for the front end, and <strong>Express.js</strong> for the back end, which effectively reduced
             proposal creation time by 30% and streamlined the process.
             </li>
             <li>
             Built <strong>5+ reusable RESTful APIs using Express.js, JWT, and CORS</strong>, improving client-server response time
             by 25%. Ensured robustness with thorough endpoint validation using <strong>Jest unit tests and Postman</strong>.
             </li>
-            <li>Revamped <strong>10+ React.js components with ShadCN</strong>, reducing UI-related user errors by 50%.</li>
+            <li>Revamped <strong>10+ React.js components with Material-UI</strong>, reducing UI-related user errors by 50%.</li>
             <li>Integrated <strong>CI/CD pipelines</strong> by GitHub Actions, and collaborated in <strong>Agile workflows</strong>.</li>
           </ul>
         </div>
