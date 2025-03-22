@@ -20,7 +20,7 @@ export default function Prestige() {
           </a>
         </CardTitle>
         <CardDescription className="flex flex-row justify-between">
-        <span className="block">Sep. 2024 - Jan. 2025</span>
+        <span className="block">Sep. 2024 - Present</span>
         <span className="block">Prestige, SK, Canada</span>
         </CardDescription>
       </CardHeader>

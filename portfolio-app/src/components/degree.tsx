@@ -34,10 +34,6 @@ export default function Degree() {
               <span>Graduated with Great Distinction</span>
             </li>
             <li className="flex items-center gap-2">
-              <GraduationCapIcon className="w-5 h-5 text-primary" />
-              <span>Four-year Degree</span>
-            </li>
-            <li className="flex items-center gap-2">
               <AwardIcon className="w-5 h-5 text-primary" />
               <span>Golden Key International Honours Society</span>
             </li>
